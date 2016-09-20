@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎注册校园跳蚤网</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<style type="text/css">
+		body{
+			background-color: #EEEEEE;
+		}
+
+		.main{
+			margin-top: 60px;
+		}
+
+		.nav{
+			background-color: #8FCEED;
+			border-radius: 10px;
+			margin-top: -10px;
+			font-weight: 600;
+			font-family: "microsoft yahei";
+			text-shadow: 0 5px 10px #ccc;
+		}
+
+		h3{
+			font-size: 16px;
+			height: 26px;
+			text-align: right;
+		}
+
+
+		h2{
+			text-align: center;
+			font-weight: 600;
+			font-family: "microsoft yahei";
+			margin-top: 100px;
+			margin-bottom: 50px;
+			text-shadow: 0 5px 10px #ccc;	
+		}
+
+		.radio-inline{
+			 margin-right: 80px;
+		}
+
+		.form-control{
+			margin-top: 10px;
+			box-shadow: 0 0 10px #bac0f4;
+		}
+
+		.yanzheng{
+		    width: 180px;
+		    height: 34px;
+		    border-radius: 5px;
+		    outline: none;
+		    border: 1px solid #ccc;
+		    padding: 0 10px;
+		    margin: 10px 0;
+		    box-shadow: 0 0 10px #bac0f4;
+		    display: inline-block;
+		}
+
+		.check{
+			padding-left: 10px;
+			/*width: 50px;*/
+			height: 20px;
+			display: inline-block;
+		}
+
+		input,
+		button{
+			width: 300px;
+		}
+
+		.btn{
+			margin-top: 20px;
+		}
+
+		.btn-success{
+			box-shadow: 1px 1px 5px #4DA064;
+		}
+
+		.login label{
+			margin-top: 20px;
+			float: left;
+			margin-left: 50px;
+		}
+
+		.login a{
+			margin-top: 20px;
+			float: right;
+			margin-right: 50px;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<div class="container">
+		<!-- 导航栏 -->
+		<div class="row">
+  			<div class="col-md-12 text-center nav">
+  				<h1><b>跳蚤网用户注册</b></h1>
+  			</div>
+  		</div>
+
+		<div class="row main">
+  			<div class="col-md-3"></div>
+  			<div class="col-md-2">
+  				<h3>
+  					<label>用户名：</label>
+  				</h3>
+  				<h3>
+  					<label>密码：</label>
+  				</h3>	
+  				<h3>
+  					<label>电话：</label>
+  				</h3>
+  				<h3>
+  					<label>地址：</label>
+  				</h3>
+  				<h3>
+  					<label>验证码：</label>
+  				</h3>
+  			</div>
+  			<div class="col-md-3">
+  				<!-- <h2>欢迎注册校园跳蚤网</h2> -->
+				<form role="form">
+				  <div class="form-group">
+				    <!-- <label for="exampleInputEmail1">Email address</label> -->
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="用户名">
+				  </div>
+				  <div class="form-group">
+				    <!-- <label for="exampleInputPassword1">Password</label> -->
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码">
+				  </div>
+				  <!-- <div class="form-group">
+				    <label for="exampleInputFile">File input</label>
+				    <input type="file" id="exampleInputFile">
+				    <p class="help-block">Example block-level help text here.</p>
+				  </div>
+				  <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Check me out
+				    </label>
+				  </div> -->
+					
+					<input type="text" class="form-control" placeholder="电话"> 
+					<input type="text" class="form-control" placeholder="地址">
+
+					<input type="text" class="form-control yanzheng" placeholder="验证码">  
+					<p class="check">xxx</p>
+					
+
+				  <button type="submit" class="btn btn-success btn-sm btn-block">注册</button>
+
+				  <div class="login">
+				  	 <label>已有账号？</label>
+				  	 <a href="javascript:;"><b>登陆</b></a>
+				  </div>
+				</form>
+  			</div>
+  			<div class="col-md-4"></div>
+		</div>
+
+
+		
+
+	</div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+</body>
+</html>
